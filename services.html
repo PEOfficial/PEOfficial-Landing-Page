@@ -5,8 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Services | PEOfficial Tech</title>
-<link rel="stylesheet" href="style.css">
-    
+
+<style>
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #000000, #001a33);
+    font-family: monospace;
+    color: #00aaff;
+}
+
+/* Container */
+.container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #00ffcc;
+    text-shadow: 0 0 15px #0066ff;
+}
+
+/* Service Boxes */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box {
+    background: #000;
+    border: 1px solid #0066ff;
+    box-shadow: 0 0 15px #0066ff;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #0099ff, 0 0 50px #0066ff;
+}
+
+.box h3 {
+    color: #00ffcc;
+}
+
+.box p {
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
+
 </head>
 
 <body>
